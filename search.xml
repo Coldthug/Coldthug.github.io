@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>note提示块标签</title>
+      <link href="/2022/03/26/note%E6%8F%90%E7%A4%BA%E5%9D%97%E6%A0%87%E7%AD%BE/"/>
+      <url>/2022/03/26/note%E6%8F%90%E7%A4%BA%E5%9D%97%E6%A0%87%E7%AD%BE/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note flat"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note flat %&#125;</span><br><span class="line">默认 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></div><div class="note default flat"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note default flat %&#125;</span><br><span class="line">default 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></div><div class="note primary flat"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note primary flat %&#125;</span><br><span class="line">primary 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></div><div class="note success flat"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note success flat %&#125;</span><br><span class="line">success 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></div><div class="note info flat"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note info flat %&#125;</span><br><span class="line">info 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></div><div class="note warning flat"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note warning flat %&#125;</span><br><span class="line">warning 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></div><div class="note danger flat"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note danger flat %&#125;</span><br><span class="line">danger 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Ubuntu软件安装</title>
+      <link href="/2022/03/26/Ubuntu%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+      <url>/2022/03/26/Ubuntu%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="gcc"><a href="#gcc" class="headerlink" title="gcc"></a>gcc</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install gcc</span><br><span class="line">gcc -v//查看版本</span><br></pre></td></tr></table></figure><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 文件命名为 helloworld.c</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello world&quot;</span>);</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="输出为可执行文件"><a href="#输出为可执行文件" class="headerlink" title="输出为可执行文件"></a>输出为可执行文件</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gcc helloworld.c -o helloworld</span><br></pre></td></tr></table></figure><h2 id="运行-helloworld"><a href="#运行-helloworld" class="headerlink" title="运行 helloworld"></a>运行 helloworld</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./helloworld</span><br></pre></td></tr></table></figure><p>###注意一定要加上    ./</p><h1 id="vim"><a href="#vim" class="headerlink" title="vim"></a>vim</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install vim</span><br></pre></td></tr></table></figure><p>教程：<a href="https://www.runoob.com/linux/linux-vim.html">https://www.runoob.com/linux/linux-vim.html</a></p><h1 id="Mysql"><a href="#Mysql" class="headerlink" title="Mysql"></a>Mysql</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install mysql-server</span><br><span class="line">sudo systemctl status mysql//服务验证 </span><br></pre></td></tr></table></figure><h2 id="保护加固脚本"><a href="#保护加固脚本" class="headerlink" title="保护加固脚本"></a>保护加固脚本</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mysql_secure_installation</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">//* 运行命令显示如下：</span><br><span class="line">Securing the MySQL server deployment.</span><br><span class="line">Connecting to MySQL using a blank password.</span><br><span class="line">VALIDATE PASSWORD COMPONENT can be used to test passwords</span><br><span class="line">and improve security. It checks the strength of password</span><br><span class="line">and allows the users to set only those passwords which are</span><br><span class="line">secure enough. Would you like to setup VALIDATE PASSWORD component?</span><br><span class="line">*/</span><br><span class="line">Press y|Y for Yes, any other key for No:   y</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">//* 随后显示：</span><br><span class="line">There are three levels of password validation policy:</span><br><span class="line">LOW    Length &gt;= 8</span><br><span class="line">MEDIUM Length &gt;= 8, numeric, mixed case, and special characters</span><br><span class="line">STRONG Length &gt;= 8, numeric, mixed case, special characters and dictionary                  file</span><br><span class="line">*/</span><br><span class="line">Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG:     2</span><br></pre></td></tr></table></figure><h2 id="设置密码"><a href="#设置密码" class="headerlink" title="设置密码"></a>设置密码</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//* 提示设置密码</span><br><span class="line">New password: </span><br><span class="line">Re-enter new password: </span><br><span class="line">*/</span><br></pre></td></tr></table></figure><p>随后的问题回答皆为： <strong>y</strong></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mysql</span><br></pre></td></tr></table></figure><p>链接:    <a href="https://developer.aliyun.com/article/758177">https://developer.aliyun.com/article/758177</a></p><h1 id="java"><a href="#java" class="headerlink" title="java"></a>java</h1><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install openjdk-11-jdk</span><br></pre></td></tr></table></figure><h2 id="查看版本"><a href="#查看版本" class="headerlink" title="查看版本"></a>查看版本</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -version</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">//* 显示如下则安装成功</span><br><span class="line">openjdk version &quot;11.0.14&quot; 2022-01-18</span><br><span class="line">OpenJDK Runtime Environment (build 11.0.14+9-Ubuntu-0ubuntu2.20.04)</span><br><span class="line">OpenJDK 64-Bit Server VM (build 11.0.14+9-Ubuntu-0ubuntu2.20.04, mixed mode, sharing)</span><br><span class="line">*/</span><br></pre></td></tr></table></figure><h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><h3 id="获取安装位置"><a href="#获取安装位置" class="headerlink" title="获取安装位置"></a>获取安装位置</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo update-alternatives --config java</span><br></pre></td></tr></table></figure><p>显示：  /usr/lib/jvm/java-11-openjdk-amd64/bin/java</p><h3 id="打开环境配置文件"><a href="#打开环境配置文件" class="headerlink" title="打开环境配置文件"></a>打开环境配置文件</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/environment</span><br></pre></td></tr></table></figure><p>将 JAVA_HOME  指定到 openjdk 11，复制以下代码，添加到配置文件文末</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">JAVA_HOME=&quot;/usr/lib/jvm/java-11-openjdk-amd64&quot;</span><br></pre></td></tr></table></figure><p>​                     保存：    Ctrl + O    退出：Ctrl + X</p><h2 id="重启系统"><a href="#重启系统" class="headerlink" title="重启系统"></a>重启系统</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reboot</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo $JAVA_HOME</span><br></pre></td></tr></table></figure><p>///    显示 usr/lib/jvm/java-11-openjdk-amd64 则成功</p><h2 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt remove openjdk-11-jdk</span><br></pre></td></tr></table></figure><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p><a href="https://cloud.tencent.com/developer/article/1626610">https://cloud.tencent.com/developer/article/1626610</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>实用工具thefuck</title>
+      <link href="/2022/03/22/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7thefuck/"/>
+      <url>/2022/03/22/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7thefuck/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="the-fuck"><a href="#the-fuck" class="headerlink" title="the fuck"></a>the fuck</h1><p>有趣实用</p><p>项目地址:</p><p><a href="https://github.com/nvbn/thefuck">https://github.com/nvbn/thefuck</a></p><h2 id="依赖"><a href="#依赖" class="headerlink" title="依赖"></a>依赖</h2><ul><li>python (3.4+)</li><li>pip</li><li>python-dev</li></ul><h2 id="操作示例"><a href="#操作示例" class="headerlink" title="操作示例"></a>操作示例</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">➜ puthon</span><br><span class="line">No command &#x27;puthon&#x27; found, did you mean:</span><br><span class="line"> Command &#x27;python&#x27; from package &#x27;python-minimal&#x27; (main)</span><br><span class="line"> Command &#x27;python&#x27; from package &#x27;python3&#x27; (main)</span><br><span class="line">zsh: command not found: puthon</span><br><span class="line"></span><br><span class="line">➜ fuck</span><br><span class="line">python [enter/↑/↓/ctrl+c]</span><br><span class="line">Python 3.4.2 (default, Oct  8 2014, 13:08:17)</span><br><span class="line">...</span><br></pre></td></tr></table></figure><h2 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h2><p>Ubuntu：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install python3-dev python3-pip python3-setuptools</span><br><span class="line">pip3 install thefuck --user</span><br></pre></td></tr></table></figure><p>Centos:</p><p>关于Centos操作系统fuck文档并未给出直接的安装方式<br>可以通过 pip（<a href="https://pypi.org/project/pip/%EF%BC%89%E5%AE%89%E8%A3%85,%E4%BD%86%E9%9C%80%E8%A6%81%E8%BE%83%E9%AB%98%E7%9A%84python%E7%8E%AF%E5%A2%83%EF%BC%8C%E6%98%BE%E7%84%B6Centos7%E5%B9%B6%E4%B8%8D%E5%85%B7%E5%A4%87%EF%BC%8C%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E6%98%93%E5%87%BA%E9%94%99%EF%BC%8C%E8%80%8CCentos8%E4%BB%A5%E5%81%9C%E6%AD%A2%E7%BB%B4%E6%8A%A4%EF%BC%8C%E6%89%80%E4%BB%A5%E5%9C%A8%E6%AD%A4%E5%B9%B6%E4%B8%8D%E6%8E%A8%E8%8D%90">https://pypi.org/project/pip/）安装,但需要较高的python环境，显然Centos7并不具备，安装过程易出错，而Centos8以停止维护，所以在此并不推荐</a></p><h2 id="修改命令"><a href="#修改命令" class="headerlink" title="修改命令"></a>修改命令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">eval $(thefuck --alias ### )</span><br><span class="line"># 例如，将命令 thefuck 改为 FUCK ，如下：</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">eval $(thefuck --alias FUCK)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>驼峰命名法</title>
+      <link href="/2022/03/20/%E9%A9%BC%E5%B3%B0%E5%91%BD%E5%90%8D%E6%B3%95/"/>
+      <url>/2022/03/20/%E9%A9%BC%E5%B3%B0%E5%91%BD%E5%90%8D%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="驼峰命名法"><a href="#驼峰命名法" class="headerlink" title="驼峰命名法"></a>驼峰命名法</h1><p>当[变量]名和[函数]名称是由二个或多个[单字]链接在一起，而构成的唯一[识别字]时，利用“驼峰式大小写”来表示，可以增加变量和函数的可读性。</p><h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><p>单字之间不以空格断开（例：camel case）或[连接号]（-，例：camel-case）、下划线（_，例：camel_case）链接，有两种格式：</p><h2 id="小驼峰式命名法"><a href="#小驼峰式命名法" class="headerlink" title="小驼峰式命名法"></a>小驼峰式命名法</h2><p>方法名,变量一般用小驼峰法标识。</p><p>第一个单字以[小写字母]开始；第二个单字的首字母大写，例如：firstName、lastName。</p><h2 id="大驼峰式命名法"><a href="#大驼峰式命名法" class="headerlink" title="大驼峰式命名法"></a>大驼峰式命名法</h2><p>常用于[类名]，命名空间等。</p><p>每一个单字的首字母都采用[大写字母]，例如：FirstName、LastName、CamelCase，也被称为<strong>Pascal命名法</strong>（英语：Pascal Case）。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux入门</title>
+      <link href="/2022/03/12/Linux%E5%85%A5%E9%97%A8/"/>
+      <url>/2022/03/12/Linux%E5%85%A5%E9%97%A8/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Linux入门"><a href="#Linux入门" class="headerlink" title="Linux入门"></a>Linux入门</h2><p>GNU/Linux<br>Linux——&gt;shell<br>F11全屏</p><h2 id="四个部分"><a href="#四个部分" class="headerlink" title="四个部分"></a>四个部分</h2><p>1.Linux kernel 内核<br>2.GNU 工具<br>3.GUI环境<br>4.Application 应用</p><p>硬件——&gt;linux——&gt;GUI/GNU——&gt;应用</p><h2 id="Linux内核"><a href="#Linux内核" class="headerlink" title="Linux内核"></a>Linux内核</h2><p>1.硬件设备 管理使用<br>2.软件程序(系统)——&gt;操作进程<br>3.系统内存<br>4.文件管理(保存,删除,修改)</p><h2 id="GNU核心"><a href="#GNU核心" class="headerlink" title="GNU核心"></a>GNU核心</h2><p>工具、命令模仿于Unix，供Linux使用coreutils软件包</p><p>软件包包含<br>1.处理文件的工具<br>2.操作文本的工具<br>3.管理进程的工具</p><p>shell<br>提供给用户使用的软件:用户用其与电脑交互<br>命令行壳层提供命令行界面(CLI)<br>图形壳层提供图形用户界面(GUI)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>java编译gbk报错</title>
+      <link href="/2022/03/12/java%E7%BC%96%E8%AF%91gbk%E6%8A%A5%E9%94%99/"/>
+      <url>/2022/03/12/java%E7%BC%96%E8%AF%91gbk%E6%8A%A5%E9%94%99/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="报错情况"><a href="#报错情况" class="headerlink" title="报错情况"></a>报错情况</h2><p>IDEA可正常运行Menu.java，在命令提示行中使用</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javac Menu.java</span><br></pre></td></tr></table></figure><p>然后报错：Menu.java: 错误: 编码GBK的不可映射字符。</p><h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>方法一：带上编码utf-8，运行命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javac -encoding utf-8 Menu.java</span><br></pre></td></tr></table></figure><p>同目录下出现Menu.class文件，编译成功！</p><p>方法二：用记事本另存为ANSI编码格式的，直接运行命令：javac Menu.java</p><p>出现对应的class文件，成功！</p><p>注意：class类名必须与文件名保持一致！！</p><p>如果不一致会报错：b.java:6: 错误: 类a是公共的, 应在名为 a.java 的文件中声明</p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>由于JDK是国际版的，在编译的时候，如果我们没有用-encoding参数指定我们的JAVA源程序的编码格式，则javac.exe首先获得我们操作系统默认采用的编码格式，也即在编译java程序时，若我们不指定源程序文件的编码格式，JDK首先获得操作系统的file.encoding参数(它保存的就是操作系统默认的编码格式，如WIN2k，它的值为GBK)，然后JDK就把我们的java源程序从file.encoding编码格式转化为JAVA内部默认的UNICODE格式放入内存中。然后，javac把转换后的unicode格式的文件进行编译成.class类文件，此时.class文件是UNICODE编码的，它暂放在内存中，紧接着，JDK将此以UNICODE编码的编译后的class文件保存到我们的操作系统中形成我们见到的.class文件。对我们来说，我们最终获得的.class文件是内容以UNICODE编码格式保存的类文件，它内部包含我们源程序中的中文字符串，只不过此时它己经由file.encoding格式转化为UNICODE格式了。当我们不加设置就编译时，相当于使用了参数：javac -encoding gbk XX.java，当然就会出现不兼容的情况。</p><p>解决办法<br>应该使用-encoding参数指明编码方式：javac -encoding UTF-8 XX.java，这下没警告了，运行也正确了在JCreator 4中设置：菜单：Configure –&gt; Options –&gt; JDK Tools –&gt; Compiler，选中<Default>，然后选Edit，Parameters里面，最前面添加：-encoding UTF-8。</p><p>Parameters原来的</p><p>默认值为：-classpath “$[ClassPath]” -d “$[OutputPath]” $[ModJavaFiles]</p><p>修改后为：-encoding UTF-8 -classpath “$[ClassPath]” -d “$[OutputPath]” $[ModJavaFiles]</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>java清屏</title>
+      <link href="/2022/03/11/java%E6%B8%85%E5%B1%8F%E5%8A%9F%E8%83%BD/"/>
+      <url>/2022/03/11/java%E6%B8%85%E5%B1%8F%E5%8A%9F%E8%83%BD/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="java清屏"><a href="#java清屏" class="headerlink" title="java清屏"></a>java清屏</h1><p>操作系统分为用户态和内核态，Java程序是用户态，没有直接的清屏功能<br>清屏功能需要深入到系统内核，而普通的java程序难以进入内核态</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>一：多次使用换行，对上方内容覆盖，以达到类似清屏效果，可以对内容进行回滚查看。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">System.out.println(<span class="string">&quot;/n /n /n /n /n /n /n /n /n /n /n /n /n /n /n /n&quot;</span>);</span><br></pre></td></tr></table></figure><p>二：间接调用System(“cls“)<br>具体步骤请查看以下链接</p><p><a href="https://blog.csdn.net/weixin_36469726/article/details/114105786?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-4-114105786.pc_agg_new_rank&amp;utm_term=java%E4%B8%AD%E7%9A%84%E6%B8%85%E5%B1%8F%E4%BB%A3%E7%A0%81&amp;spm=1000.2123.3001.4430">https://blog.csdn.net/weixin_36469726/article/details/114105786?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-4-114105786.pc_agg_new_rank&amp;utm_term=java%E4%B8%AD%E7%9A%84%E6%B8%85%E5%B1%8F%E4%BB%A3%E7%A0%81&amp;spm=1000.2123.3001.4430</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>java文档注释</title>
+      <link href="/2022/03/10/java%E6%96%87%E6%A1%A3%E6%B3%A8%E9%87%8A/"/>
+      <url>/2022/03/10/java%E6%96%87%E6%A1%A3%E6%B3%A8%E9%87%8A/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="注释方法"><a href="#注释方法" class="headerlink" title="注释方法"></a>注释方法</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 第一种注释方式:行注释</span></span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">第二种</span></span><br><span class="line"><span class="comment">注释方式:段落注释</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">第三种注释方式:说明注释</span></span><br><span class="line"><span class="comment">说明注释允许在程序中嵌入关于程序的信息。可以使用 javadoc 工具软件来生成信息，并输出到HTML文件中。</span></span><br><span class="line"><span class="comment">说明注释，便于记录程序信息。</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure><h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><table><thead><tr><th>标签</th><th>描述</th><th>示例</th></tr></thead><tbody><tr><td>@author</td><td>标识一个类的作者</td><td>@author description</td></tr><tr><td>@deprecated</td><td>指名一个过期的类或成员</td><td>@deprecated description</td></tr><tr><td>{@docRoot}</td><td>指明当前文档根目录的路径</td><td>Directory Path</td></tr><tr><td>@exception</td><td>标志一个类抛出的异常</td><td>@exception exception-name explanation</td></tr><tr><td>{@inheritDoc}</td><td>从直接父类继承的注释</td><td>Inherits a comment from the immediate surperclass.</td></tr><tr><td>{@link}</td><td>插入一个到另一个主题的链接</td><td>{@link name text}</td></tr><tr><td>{@linkplain}</td><td>插入一个到另一个主题的链接，但是该链接显示纯文本字体</td><td>Inserts an in-line link to another topic.</td></tr><tr><td>@param</td><td>说明一个方法的参数</td><td>@param parameter-name explanation</td></tr><tr><td>@return</td><td>说明返回值类型</td><td>@return explanation</td></tr><tr><td>@see</td><td>指定一个到另一个主题的链接</td><td>@see anchor</td></tr><tr><td>@serial</td><td>说明一个序列化属性</td><td>@serial description</td></tr><tr><td>@serialData</td><td>说明通过writeObject( ) 和 writeExternal( )方法写的数据</td><td>@serialData description</td></tr><tr><td>@serialField</td><td>说明一个ObjectStreamField组件</td><td>@serialField name type description</td></tr><tr><td>@since</td><td>标记当引入一个特定的变化时</td><td>@since release</td></tr><tr><td>@throws</td><td>和 @exception标签一样.</td><td>The @throws tag has the same meaning as the @exception tag.</td></tr><tr><td>{@value}</td><td>显示常量的值，该常量必须是static属性。</td><td>Displays the value of a constant, which must be a static field.</td></tr><tr><td>@version</td><td>指定类的版本</td><td>@version info</td></tr></tbody></table><h2 id="生成"><a href="#生成" class="headerlink" title="生成"></a>生成</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javadoc 程序名.java</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>系统用户名</title>
+      <link href="/2022/03/10/%E7%94%A8%E6%88%B7%E5%90%8D%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/03/10/%E7%94%A8%E6%88%B7%E5%90%8D%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="用户名问题"><a href="#用户名问题" class="headerlink" title="用户名问题"></a>用户名问题</h1><p>当系统重置，填写信息时，先登录微软账号，后填写用户名，进入系统的用户名会默认为微软账号邮箱。<br>切记：若想修改用户名，需修改注册表，极其繁琐并且易错，修改不当会严重影响系统正常运行，若非必要，勿动注册表。<br>个人解决办法，再次重置系统，跳过微软账号登录。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 系统 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Typora快捷键</title>
+      <link href="/2022/03/05/Typora%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+      <url>/2022/03/05/Typora%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h2><table><thead><tr><th>功能</th><th>快捷键</th></tr></thead><tbody><tr><td>新建</td><td>Ctrl+N</td></tr><tr><td>新建窗口</td><td>Ctrl+Shift+N</td></tr><tr><td>打开文件</td><td>Ctrl+O</td></tr><tr><td>打开最近文件</td><td>Ctrl+P</td></tr><tr><td>保存</td><td>Ctrl+S</td></tr><tr><td>另存为</td><td>Ctrl+Shift+S</td></tr><tr><td>偏好设置</td><td>Ctrl+，</td></tr><tr><td>关闭</td><td>Ctrl+W</td></tr><tr><td>重新打开关闭的文件</td><td>Ctrl+Shift+T</td></tr></tbody></table><h2 id="编辑模式"><a href="#编辑模式" class="headerlink" title="编辑模式"></a>编辑模式</h2><table><thead><tr><th>功能</th><th>快捷键</th></tr></thead><tbody><tr><td>源代码模式</td><td>Ctrl+/</td></tr><tr><td>专注模式</td><td>F8</td></tr><tr><td>打字机模式</td><td>F9</td></tr></tbody></table><h2 id="字体操作"><a href="#字体操作" class="headerlink" title="字体操作"></a>字体操作</h2><table><thead><tr><th align="left">功能</th><th align="left">快捷键</th></tr></thead><tbody><tr><td align="left">加粗</td><td align="left">Ctrl+B</td></tr><tr><td align="left">下划线</td><td align="left">Ctrl+U</td></tr><tr><td align="left">倾斜</td><td align="left">Ctrl+I</td></tr><tr><td align="left">删除线</td><td align="left">Alt+Shift+5</td></tr></tbody></table><h2 id="插入功能"><a href="#插入功能" class="headerlink" title="插入功能"></a>插入功能</h2><table><thead><tr><th>功能</th><th>快捷键</th></tr></thead><tbody><tr><td>插入图片</td><td>Ctrl+Shift+I</td></tr><tr><td>插入表格</td><td>Ctrl+T</td></tr><tr><td>插入有序表</td><td>Ctrl+Shift+[</td></tr><tr><td>插入无序表</td><td>Ctrl+Shift+]</td></tr><tr><td>插入超链接</td><td>Ctrl+K</td></tr><tr><td>插入代码片</td><td>Ctrl+Shift+`</td></tr><tr><td>插入代码块</td><td>Ctrl+Shift+K</td></tr><tr><td>插入公式块</td><td>Ctrl+Shift+M</td></tr><tr><td>插入引用块</td><td>Ctrl+Shift+Q</td></tr></tbody></table><h2 id="标题段落"><a href="#标题段落" class="headerlink" title="标题段落"></a>标题段落</h2><table><thead><tr><th>功能</th><th>快捷键</th></tr></thead><tbody><tr><td>正文</td><td>Ctrl+0</td></tr><tr><td>标题等级（1~6）</td><td>Ctrl+1~6</td></tr><tr><td>提升标题等级</td><td>Ctrl+‘+’</td></tr><tr><td>降低标题等级</td><td>Ctrl+‘-’</td></tr></tbody></table><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>鼠标拖动行/列边框可以交换</p><table><thead><tr><th>功能</th><th>快捷键</th></tr></thead><tbody><tr><td>上移该行</td><td>Alt+  ↑</td></tr><tr><td>下移该行</td><td>Alt+  ↓</td></tr><tr><td>左移该列</td><td>Win键+  ←</td></tr><tr><td>右移该列</td><td>Win键+  →</td></tr><tr><td>下方插入行</td><td>Ctrl+Enter</td></tr></tbody></table><h2 id="视图"><a href="#视图" class="headerlink" title="视图"></a>视图</h2><table><thead><tr><th>功能</th><th>快捷键</th></tr></thead><tbody><tr><td>大纲视图</td><td>Ctrl+Shift+1</td></tr><tr><td>文件列表视图</td><td>Ctrl+Shift+2</td></tr><tr><td>放大视图</td><td>Ctrl+Shift+‘+’</td></tr><tr><td>缩小视图</td><td>Ctrl+Shift+‘-’</td></tr></tbody></table><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><table><thead><tr><th>功能</th><th>快捷键</th></tr></thead><tbody><tr><td>开发者工具</td><td>Shift+F12</td></tr><tr><td>查找</td><td>Ctrl+F</td></tr><tr><td>替换</td><td>Ctrl+H</td></tr><tr><td>剪切</td><td>Ctrl+X</td></tr><tr><td>复制为MarkDown标记语法</td><td>Ctrl+Shift+C</td></tr><tr><td>粘贴为纯文本</td><td>Ctrl+Shift+V</td></tr><tr><td>增加缩进</td><td>Ctrl+]</td></tr><tr><td>减少缩进</td><td>Ctrl+[</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件应用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VMware及CentOS安装</title>
+      <link href="/2022/03/04/VMware%E5%8F%8ACentOS%E5%AE%89%E8%A3%85/"/>
+      <url>/2022/03/04/VMware%E5%8F%8ACentOS%E5%AE%89%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="VMware"><a href="#VMware" class="headerlink" title="VMware"></a>VMware</h1><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p><a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html</a></p><h2 id="新建虚拟机"><a href="#新建虚拟机" class="headerlink" title="新建虚拟机"></a>新建虚拟机</h2><p>#以下为个人新建虚拟机的过程,仅供参考</p><p>配置：自定义(高级)<br>硬件功能：默认<br>如何安装系统：稍后<br>哪种操作系统：linux ；debian -10 -64<br>名称：默认；更改位置   #选择较大存储空间，避免C盘<br>处理器核数：1；1    #1核足矣<br>内存：默认<br>网络：NAT<br>控制器：推荐<br>磁盘：推荐<br>使用哪个磁盘：创建新的<br>磁盘大小：默认；存储为单个文件  #重点：单个文件便于管理<br>磁盘文件：默认<br>自定义硬件：默认  #其中打印机可以移除（无用）</p><h2 id="使用镜像文件"><a href="#使用镜像文件" class="headerlink" title="使用镜像文件"></a>使用镜像文件</h2><p>下载地址：</p><p><a href="https://developer.aliyun.com/mirror/centos?spm=a2c6h.13651102.0.0.3e221b113dgNST">https://developer.aliyun.com/mirror/centos?spm=a2c6h.13651102.0.0.3e221b113dgNST</a></p><h1 id="CentOS安装"><a href="#CentOS安装" class="headerlink" title="CentOS安装"></a>CentOS安装</h1><p> install Centos Linux<br>language: English&amp;&amp;chinese<br>Time&amp;Date: shanghai<br>installation Destination: Automatic<br>network&amp;host name : (ens160) on<br>root password: ************************</p><h1 id="安装VMware-Tools"><a href="#安装VMware-Tools" class="headerlink" title="安装VMware Tools"></a>安装VMware Tools</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>java入门</title>
+      <link href="/2022/03/04/java%E5%85%A5%E9%97%A8/"/>
+      <url>/2022/03/04/java%E5%85%A5%E9%97%A8/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>开发工具包 jdk    java se development kit<br>运行环境 jre    Java Runtime Environment<br>虚拟机 jvm    Java Virtual Mechinal</p><h1 id="jdk下载"><a href="#jdk下载" class="headerlink" title="jdk下载"></a>jdk下载</h1><p><a href="https://www.oracle.com/java/technologies/downloads/#jdk17-windows">https://www.oracle.com/java/technologies/downloads/#jdk17-windows</a></p><h1 id="文件目录介绍"><a href="#文件目录介绍" class="headerlink" title="文件目录介绍"></a>文件目录介绍</h1><p>bin：编译器，解析器等<br>jre：运行环境<br>lib：开发类库<br>jre/bin：工具及可执行程序<br>jre/lib：类库，属性设置，资源文件</p><h1 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h1><h3 id="新建系统变量"><a href="#新建系统变量" class="headerlink" title="新建系统变量"></a>新建系统变量</h3><p>JAVA_HOME<br>路径取jdk路径</p><h3 id="在系统变量Path后追加"><a href="#在系统变量Path后追加" class="headerlink" title="在系统变量Path后追加"></a>在系统变量Path后追加</h3><p>%JAVA_HOME%\bin<br>%JAVA_HOME%\jre\bin</p><h3 id="添加classPath"><a href="#添加classPath" class="headerlink" title="添加classPath"></a>添加classPath</h3><p>CLASSPATH<br>.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar</p><h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p>使用javac，Java命令分别测试环境配置，jdk安装<br>javac编译Java文件—&gt;class字节码文件<br>java运行class字节码文件</p><h1 id="集成开发环境"><a href="#集成开发环境" class="headerlink" title="集成开发环境"></a>集成开发环境</h1><p>Eclipse<br><a href="https://www.eclipse.org/downloads/">https://www.eclipse.org/downloads/</a><br>IDEA<br><a href="https://www.jetbrains.com/zh-cn/idea/download/#section=windows">https://www.jetbrains.com/zh-cn/idea/download/#section=windows</a></p><h1 id="Helloworld"><a href="#Helloworld" class="headerlink" title="Helloworld"></a>Helloworld</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Hello</span>&#123;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;hello world!&quot;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博客搭建</title>
+      <link href="/2022/03/03/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <url>/2022/03/03/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="个人博客"><a href="#个人博客" class="headerlink" title="个人博客"></a>个人博客</h1><p><a href="https://coldthug.github.io/">https://coldthug.github.io/</a></p><h1 id="应用（Windows）"><a href="#应用（Windows）" class="headerlink" title="应用（Windows）"></a>应用（Windows）</h1><p> node.js    <a href="https://nodejs.org/">https://nodejs.org</a><br>     hexo    <a href="https://hexo.io/">https://hexo.io/</a><br>         git    <a href="https://git-scm.com/">https://git-scm.com/</a>     (官网)<br>                 <a href="https://registry.npmmirror.com/binary.html?path=git-for-windows/">https://registry.npmmirror.com/binary.html?path=git-for-windows/</a>  （快速下载）</p><h3 id="cmd命令"><a href="#cmd命令" class="headerlink" title="cmd命令"></a>cmd命令</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">node --version</span><br><span class="line">git --version</span><br><span class="line">#查看应用版本以检测是否正常安装</span><br></pre></td></tr></table></figure><h3 id="hexo安装"><a href="#hexo安装" class="headerlink" title="hexo安装"></a>hexo安装</h3><p>cmd     </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br><span class="line">hexo --version    #查看版本</span><br></pre></td></tr></table></figure><h1 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h1><p>搭建过程均在git bash操作<br>git bash  ——命令行界面<br>类似Linux、Windows的终端</p><h6 id="hexo命令"><a href="#hexo命令" class="headerlink" title="hexo命令"></a><strong>hexo命令</strong></h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean #用来清理缓存文件</span><br><span class="line">hexo g      #生成文件</span><br><span class="line">hexo  s     #运行本地服务器</span><br><span class="line">hexo  d   #上传到服务器</span><br></pre></td></tr></table></figure><h3 id="新建文件夹blog"><a href="#新建文件夹blog" class="headerlink" title="新建文件夹blog"></a>新建文件夹blog</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir 文件名</span><br></pre></td></tr></table></figure><h3 id="博客初始化"><a href="#博客初始化" class="headerlink" title="博客初始化"></a>博客初始化</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><h3 id="本地启动博客服务"><a href="#本地启动博客服务" class="headerlink" title="本地启动博客服务"></a>本地启动博客服务</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br><span class="line">#生成localhost 4000端口，浏览器打开测试是否正常</span><br></pre></td></tr></table></figure><h3 id="GitHub新建仓库"><a href="#GitHub新建仓库" class="headerlink" title="GitHub新建仓库"></a>GitHub新建仓库</h3><p>登录Github，new repository<br>repository name 为 <strong>昵称名</strong>.github.io<br>例如：我的呢称名为 Coldthug  对应为 coldthug.github.io<br>切记：一定是昵称名，切勿随意修改</p><h3 id="安装git部署插件"><a href="#安装git部署插件" class="headerlink" title="安装git部署插件"></a>安装git部署插件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure><h3 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h3><p>_config.yml 为重要配置文件，切勿随意修改<br>详细请参考官网 <a href="https://hexo.io/zh-cn/docs/configuration">https://hexo.io/zh-cn/docs/configuration</a></p><p>打开配置文件，在尾部修改</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#切记冒号后要加空格</span><br><span class="line">deploy</span><br><span class="line">         type： git</span><br><span class="line">         repo： https://github.com/YourGithubName/YourGithubName.github.io.git</span><br><span class="line"> branch：master </span><br></pre></td></tr></table></figure><p>#branch（github默认为main）</p><h3 id="博客部署"><a href="#博客部署" class="headerlink" title="博客部署"></a>博客部署</h3><p>使用git部署，部署前配置git的用户名和邮箱地址<br>两条命令分开运行 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;xxx&quot;</span><br><span class="line">git config --global user.name &quot;xxx&quot;</span><br></pre></td></tr></table></figure><p>使用 hexo d 命令部署<br>弹出登陆界面，输入用户名及密码<br>成功后在GitHub会有你的博客文件</p><h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>浏览器输入   昵称名.github.io<br>查看博客是否正常</p><h1 id="主题更换"><a href="#主题更换" class="headerlink" title="主题更换"></a>主题更换</h1><h3 id="主题下载"><a href="#主题下载" class="headerlink" title="主题下载"></a>主题下载</h3><p><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p><h3 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h3><p>_config.yml中找到theme<br>修改为下载的主题文件夹名称<br>重新加载博客</p><h1 id="博客美化"><a href="#博客美化" class="headerlink" title="博客美化"></a>博客美化</h1><p>根据下载的主题对应的github及说明文档对界面代码进行修改添加信息</p><h1 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h1><p>参考hexo官方文档   <a href="https://hexo.io/zh-cn/index.html">https://hexo.io/zh-cn/index.html</a><br>视频教学    <a href="https://www.bilibili.com/video/BV1Yb411a7ty">https://www.bilibili.com/video/BV1Yb411a7ty</a></p><h1 id="技术参考-codesheep-特此感谢"><a href="#技术参考-codesheep-特此感谢" class="headerlink" title="技术参考  codesheep   特此感谢"></a>技术参考  codesheep   特此感谢</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/03/01/hello-world/"/>
+      <url>/2022/03/01/hello-world/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
