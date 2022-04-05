@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Junit单元测试</title>
+      <link href="/2022/04/05/Junit%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/"/>
+      <url>/2022/04/05/Junit%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Junit单元测试"><a href="#Junit单元测试" class="headerlink" title="Junit单元测试"></a>Junit单元测试</h1><p>又称为模块测试 ，是针对 程序模块（[软件设计]的最小单位）来进行正确性检验的测试工作。程序单元是应用的最小可测试部件。在过程化编程中，一个单元就是单个程序、函数、过程等；对于面向对象编程，最小单元就是方法，包括基类（超类）、抽象类、或者派生类（子类）中的方法。通常来说，程序员每修改一次程序就会进行最少一次单元测试，在编写程序的过程中前后很可能要进行多次单元测试，以证实程序达到软件规格书要求的工作目标，没有程序错误；虽然单元测试不是必须的，但也不坏，这牵涉到项目管理的政策决定。</p><h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p>架包 <a href="https://mvnrepository.com/artifact/junit/junit">下载</a><br>依赖 <a href="https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core/1.3">下载</a></p><h2 id="本地测试"><a href="#本地测试" class="headerlink" title="本地测试"></a>本地测试</h2><p>Main是程序运行的入口，不具备测试功能，Main方法不该有太多的逻辑性功能性的语句，应将其抽离为方法。一个项目类具有大量的模块方法，而Main只有一个，本地测试即使用Main运行程序观察结果。 </p><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><p>编写功能函数<br>本地测试<br>调用函数<br>观测运行结果<br>预期结果和测试结果是通过人工计算的</p><h2 id="单元测试"><a href="#单元测试" class="headerlink" title="单元测试"></a>单元测试</h2><p>不同于本地测试，不需要Main方法，可进行批量测试，精准定位错误，JUnit 促进了“先测试后编码”的理念，强调建立测试数据的一段代码，可以先测试，然后再应用。这个方法就好比“测试一点，编码一点，测试一点，编码一点……”，增加了程序员的产量和程序的稳定性，可以减少程序员的压力和花费在排错上的时间。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git 基础</title>
       <link href="/2022/03/29/Git%E5%9F%BA%E7%A1%80/"/>
       <url>/2022/03/29/Git%E5%9F%BA%E7%A1%80/</url>
