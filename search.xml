@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>死锁</title>
+      <link href="/2022/04/08/%E6%AD%BB%E9%94%81/"/>
+      <url>/2022/04/08/%E6%AD%BB%E9%94%81/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="死锁"><a href="#死锁" class="headerlink" title="死锁"></a>死锁</h1><p>当两个以上的运算单元，双方都在等待对方停止执行，以获取系统资源，但是没有一方提前退出时，就称为死锁。<br>活锁，与死锁相似，死锁是行程都在等待对方先释放资源；活锁则是行程彼此释放资源又同时占用对方释放的资源。当此情况持续发生时，尽管资源的状态不断改变，但每个行程都无法获取所需资源，使得事情没有任何进展。</p><h2 id="根本原因"><a href="#根本原因" class="headerlink" title="根本原因"></a>根本原因</h2><p>系统能提供的资源个数比要求该资源的进程数要少。</p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><ol><li>系统资源不足</li><li>进程推进顺序非法</li></ol><h2 id="产生死锁的必要条件"><a href="#产生死锁的必要条件" class="headerlink" title="产生死锁的必要条件"></a>产生死锁的必要条件</h2><ol><li>互斥条件</li><li>禁止抢占</li><li>持有和等待</li><li>循环等待</li></ol><h2 id="解决死锁"><a href="#解决死锁" class="headerlink" title="解决死锁"></a>解决死锁</h2><ol><li>资源静态分配预防死锁</li><li>资源动态分配避免死锁</li><li>检测死锁并设法修复</li><li>忽略死锁</li></ol><h2 id="预防死锁"><a href="#预防死锁" class="headerlink" title="预防死锁"></a>预防死锁</h2><p>系统也可以尝试回避死锁。因为在理论上，死锁总是可能产生的，所以操作系统尝试监视所有进程，使其没有死锁。</p><h2 id="死锁的检测和忽略"><a href="#死锁的检测和忽略" class="headerlink" title="死锁的检测和忽略"></a>死锁的检测和忽略</h2><p>在死锁现象发生时，只有收回一定数目的资源之后，才有可能使系统脱离死锁状态。</p><ol><li>撤销陷于死锁的进程</li><li>从某个中间检测点重启各死锁进程</li><li>逐个撤销死锁进程，直至死锁不再存在</li><li>强迫抢占资源</li></ol><p>死锁的发生会导致系统性能下降，因为资源被不能运行的进程所占用，而越来越多的进程会因为申请不到资源进入死锁状态。</p><h2 id="消除"><a href="#消除" class="headerlink" title="消除"></a>消除</h2><p>最简单的消除死锁的办法是重启系统。更好的办法是终止一个进程的运行。<br>同样也可以把一个或多个进程回滚到先前的某个状态。如果一个进程被多次回滚，迟迟不能占用必需的系统资源，可能会导致资源匮乏。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 操作系统 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Junit单元测试</title>
       <link href="/2022/04/05/Junit%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/"/>
       <url>/2022/04/05/Junit%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</url>
@@ -238,14 +263,14 @@
       
       <categories>
           
-          <category> java </category>
+          <category> Java </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> java </tag>
+            <tag> Java </tag>
             
         </tags>
       
